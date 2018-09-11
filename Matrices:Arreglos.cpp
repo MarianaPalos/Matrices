@@ -179,7 +179,7 @@ void MultiCuad (int A[3][3], int B[3][3])
       }
       }
 
-    cout << "Big O: " << contador * contador1 << endl;
+    cout << "Big O: " << contador + contador1 << endl;
 
   for(int i=0;i<3;i++)
   {
@@ -196,7 +196,6 @@ void MultiCuad (int A[3][3], int B[3][3])
 
 int main (void)
 {
-int multi[3][3];
 int S[3][3] = {{0,1,2},{1,0,3},{2,3,0}};
 int s[3][3] = {{1,1,5},{1,1,3},{5,3,1}};
 int A[6][6] = {{0,1,2,3,4,5},{0,1,2,3,4,5},{0,1,2,3,4,5},{0,1,2,3,4,5},{0,1,2,3,4,5},{0,1,2,3,4,5}};
